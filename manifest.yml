@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: asfasf3a
+  host: asfasf3ac-kdax
+  disk_quota: 1024M
+  services:
+  - asfasf3a-cloudantNoSQLDB
+  - asfasf3a-iotf-service
